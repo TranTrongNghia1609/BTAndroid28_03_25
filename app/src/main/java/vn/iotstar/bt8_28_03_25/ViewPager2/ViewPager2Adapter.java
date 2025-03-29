@@ -1,4 +1,4 @@
-package vn.iotstar.bt8_28_03_25;
+package vn.iotstar.bt8_28_03_25.ViewPager2;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

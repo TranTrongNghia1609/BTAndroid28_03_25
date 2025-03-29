@@ -6,9 +6,9 @@ import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import vn.iotstar.bt8_28_03_25.SearchRecylerView.IndicatorActivity;
+import vn.iotstar.bt8_28_03_25.ViewPager2.ViewPager_tablayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         Button btn_viewPager = findViewById(R.id.btn_viewpager);
         btn_viewPager.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, ViewPager_tablayout.class);
+            startActivity(intent);
+        });
+        Button btn_indicator = findViewById(R.id.btn_indicator);
+        btn_indicator.setOnClickListener(view -> {
+            Intent intent= new Intent(MainActivity.this, IndicatorActivity.class);
             startActivity(intent);
         });
     }

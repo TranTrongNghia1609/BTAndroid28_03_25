@@ -1,4 +1,4 @@
-package vn.iotstar.bt8_28_03_25;
+package vn.iotstar.bt8_28_03_25.ViewPager2;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -7,12 +7,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.widget.ViewPager2;
 
@@ -22,6 +17,7 @@ import com.google.android.material.tabs.TabLayout;
 
 import org.jetbrains.annotations.NotNull;
 
+import vn.iotstar.bt8_28_03_25.R;
 import vn.iotstar.bt8_28_03_25.databinding.ActivityViewPagerTablayoutBinding;
 
 public class ViewPager_tablayout extends AppCompatActivity {

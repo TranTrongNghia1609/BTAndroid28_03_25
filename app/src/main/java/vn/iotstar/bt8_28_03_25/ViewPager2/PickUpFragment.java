@@ -1,4 +1,4 @@
-package vn.iotstar.bt8_28_03_25;
+package vn.iotstar.bt8_28_03_25.ViewPager2;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import vn.iotstar.bt8_28_03_25.R;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".NewOrderFragment">
+    tools:context=".ViewPager2.NewOrderFragment">
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_margin="50dp"
