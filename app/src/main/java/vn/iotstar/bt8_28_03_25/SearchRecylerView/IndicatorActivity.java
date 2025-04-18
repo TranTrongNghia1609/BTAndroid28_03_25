@@ -1,7 +1,7 @@
 package vn.iotstar.bt8_28_03_25.SearchRecylerView;
 
 import android.os.Bundle;
-import android.widget.SearchView;
+import androidx.appcompat.widget.SearchView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;

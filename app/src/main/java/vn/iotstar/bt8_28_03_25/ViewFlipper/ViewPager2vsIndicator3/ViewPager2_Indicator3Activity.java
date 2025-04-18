@@ -1,14 +1,10 @@
-package vn.iotstar.bt8_28_03_25.ViewFlipper;
+package vn.iotstar.bt8_28_03_25.ViewFlipper.ViewPager2vsIndicator3;
 
 import android.os.Bundle;
 import android.os.Handler;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import java.util.ArrayList;
@@ -16,6 +12,7 @@ import java.util.List;
 
 import me.relex.circleindicator.CircleIndicator3;
 import vn.iotstar.bt8_28_03_25.R;
+import vn.iotstar.bt8_28_03_25.ViewFlipper.Images;
 
 public class ViewPager2_Indicator3Activity extends AppCompatActivity {
     private ViewPager2 viewPager2;

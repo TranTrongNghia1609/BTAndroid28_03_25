@@ -1,4 +1,4 @@
-package vn.iotstar.bt8_28_03_25.ViewFlipper;
+package vn.iotstar.bt8_28_03_25.ViewFlipper.ViewPager2vsIndicator3;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import vn.iotstar.bt8_28_03_25.R;
+import vn.iotstar.bt8_28_03_25.ViewFlipper.Images;
 
 public class ImagesViewPager2Adapter extends RecyclerView.Adapter<ImagesViewPager2Adapter.ImagesViewHolder> {
     private List<Images> imagesList;

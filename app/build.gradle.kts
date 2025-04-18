@@ -43,4 +43,9 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation(libs.glide)
+    implementation(libs.circle.indicator)
+    implementation(libs.retrofit2.converter.gson)
+    implementation(libs.retrofit)
+    implementation(libs.gson)
+    implementation(libs.autoimageslider)
 }

@@ -1,4 +1,4 @@
-package vn.iotstar.bt8_28_03_25.ViewFlipper;
+package vn.iotstar.bt8_28_03_25.ViewFlipper.ViewPager2vsIndicator3;
 import android.view.View;
 
 import androidx.viewpager2.widget.ViewPager2;
